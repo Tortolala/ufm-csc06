@@ -1,16 +1,9 @@
-"""
-Ejemplo vanilla: Gemini API con requests
-Para probar la capa gratuita antes de decidir si se usa en clase.
+'''
+Interacción con Gemini desde la terminal. 
 
-A diferencia de PokeAPI, esta API si pide autenticacion. Para conseguir
-una API key gratuita (sin tarjeta):
+(Generar API Key en https://aistudio.google.com)
+'''
 
-1. Entrar a https://aistudio.google.com
-2. Iniciar sesion con una cuenta de Google normal
-3. Click en "Get API key" y copiar la key que genera
-
-Documentacion oficial: https://ai.google.dev/gemini-api/docs
-"""
 
 import requests
 
